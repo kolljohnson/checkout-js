@@ -19,5 +19,8 @@
     "flow-bin": "^0.49.1",
     "flow-typed": "^2.1.2",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "create-inferno-app": "^4.1.0"
   }
 }

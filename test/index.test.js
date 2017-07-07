@@ -66,7 +66,7 @@ describe('Main', () => {
            expect(register.total).to.equal(130);
        });
 
-        it('allows for special multibuy sales', () => {
+        it('reverts to original pricing once quantity is larger than sale quantity', () => {
             let RULES = {
                 A: [3, 130],
                 B: [0, 0],
